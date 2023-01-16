@@ -20,6 +20,7 @@ button {
   border: none;
   border-radius: 8px;
   background: #eee;
+  padding: 5px 15px;
 }
 
 input {
@@ -32,22 +33,37 @@ input {
 
 a {
   text-decoration: none;
+  color: #333333;
 }
 
 ul {
   list-style-type: none;
 }
 
+li {
+  padding: 5px 10px;
+}
+
 .header,
 .footer {
   display: flex;
   flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+  padding: 10px;
+}
+
+.footer {
+  background-color: #eeeeee;
 }
 
 .left-links,
 .right-links {
   display: flex;
+  margin: 0;
+  padding: 0;
 }
+
 
 .content {
   display: flex;
